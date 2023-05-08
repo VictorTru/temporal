@@ -1,4 +1,4 @@
-export const futurama = [
+export const biologicosApi = [
   {
     dni: 23566789,
     name: "Mariana Guzmán",

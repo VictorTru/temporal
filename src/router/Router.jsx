@@ -8,12 +8,11 @@ import Blog from "../pages/Blog";
 import Preguntas from "../pages/Preguntas";
 import Registrarse from "../pages/Regitrarse";
 import Login from "../pages/Login";
-import PerEspiritual from "../components/PerEspiritual";
-import Psicologico from "../pages/Psicologico";
-import Productos from "../pages/Productos";
-import Espiritual from "../pages/Espiritual";
-import PerfilEspiritual from "../components/PerfilEspiritual";
 
+import Psicologicos from "../pages/Psicologicos";
+
+import Espirituals from "../pages/Espirituals"
+import Biologicos from "../pages/Biologicos"
 
 const router = () => {
   return (
@@ -26,9 +25,9 @@ const router = () => {
         <Route path="/preguntas" element={<Preguntas/>}/>   
         <Route path="/registrarse" element={<Registrarse/>}/>   
         <Route path="/login" element={<Login/>}/>   
-        <Route path="/espiritual" element={<PerfilEspiritual/>}/>   
-        <Route path="/psicologico" element={<Psicologico/>}/>   
-        <Route path="/biologico" element={<Productos/>}/>   
+        <Route path="/espiritual" element={<Espirituals/>}/>   
+        <Route path="/psicologico" element={<Psicologicos/>}/>   
+        <Route path="/biologico" element={<Biologicos/>}/>   
     </Routes>
     <Footer/>
     </BrowserRouter>
