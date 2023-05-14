@@ -4,8 +4,10 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/tw-elements/dist/js/**/*.js",
-    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
+    "./node_modules/tailwind-datepicker-react/dist/**/*.js"
   ],
+
   theme: {
     extend: {
       colors: {
@@ -19,8 +21,10 @@ export default {
         'silver': '#ecebff',
         'bubble-gum': '#ff77e9',
         'bermuda': '#78dcca',
-        'cpricipal': '#855FB2',
-        'csecundario': '#4D96A9'
+        'color-principal':'#2406CE',
+        'color-secundario-1':'#6F6FEF',
+        'color-secundario-2':'#05055E',
+        'color-gradiente':'bg-gradient-to-r from-color-secundario-1 via-color-principal to-color-secundario-2"'
       },
     },
   },

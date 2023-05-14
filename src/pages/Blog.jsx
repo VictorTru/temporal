@@ -2,11 +2,11 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <>
-      <h2 className="text-3xl font-bold text-center py-12 text-black">Blog</h2>
+    <div className="bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
+      <h2 className="text-3xl font-bold text-center py-12 text-black ">Blog</h2>
 
       {/* Container for demo purpose */}
-      <div className="container my-4 px-6 mx-auto flex flex-wrap">
+      <div className="container my-4 px-6 mx-auto flex flex-wrap ">
         {/* Section: Design Block */}
         <section className="mb-32 text-gray-800 w-2/4 p-4">
           <img
@@ -136,7 +136,7 @@ const Blog = () => {
         {/* Section: Design Block */}
       </div>
       {/* Container for demo purpose */}
-    </>
+    </div>
   );
 };
 

@@ -1,20 +1,18 @@
 import React from 'react'
-import icono from '../images/icono.png'
+import icono from '../images/icono-white.png'
 import {Link} from 'react-router-dom'
 
 const Header = () => {
   return (
     <>
-    <header aria-label="Site Header" className="bg-gradient-to-r from-cyan-500 to-blue-500 ">
-  <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-    <div className="flex h-16 items-center justify-between">
-      <div className="md:flex md:items-center md:gap-12">
-        <a className="block text-white flex items-center" href="/">
-          {/* <span className="sr-only text-lg">Home</span> */}
-          <span>CoachPe</span>
+    <header aria-label="Site Header" className="bg-color-secundario-1">
+  <div className="mx-auto max-w-screen-3xl px-4 sm:px-6 lg:px-8">
+    <div className="flex h-24 items-center justify-between">
+      <div className="md:flex md:items-center md:gap-12 ">
+        <a className="block text-white flex items-center " href="/">
           <img
         src={icono}
-        className="h-14 mr-3"
+        className="h-24 mr-3"
         alt="icono"
       />
       
@@ -24,10 +22,10 @@ const Header = () => {
 
       <div className="hidden md:block">
         <nav aria-label="Site Nav">
-          <ul className="flex items-center gap-6 text-sm">
+          <ul className="flex items-center gap-12 text-base font-bold">
             <li>
               <Link
-                className="text-white transition hover:text-gray-500/75"
+                className="text-white transition hover:text-gray-500/75 "
                 to="/biologico"
               >
                 Bio
@@ -82,7 +80,7 @@ const Header = () => {
         </nav>
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 ">
         <div className="sm:flex sm:gap-4">
           <Link
             className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"

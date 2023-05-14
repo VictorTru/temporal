@@ -1,16 +1,16 @@
 import React from 'react'
-import icono from '../images/icono.png'
+import icono from '../images/icono-white.png'
 
 const Footer = () => {
   return (
    <>
     <footer aria-label="Site Footer" className="bg-black">
-  <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+  <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
     <div className="flex justify-center items-center text-gray-500">
-        <span>CoachPe</span>
+     
    <img
         src={icono}
-        className="h-14 mr-3 text-gray-500"
+        className="h-24 mr-3 text-gray-500"
         alt="icono"
       />
     </div>
