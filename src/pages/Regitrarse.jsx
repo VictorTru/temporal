@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import imagenRegistrarse from '../images/registrarse.png'
+import { useAuth } from "../context/AuthContext" 
 
 
 const Registrarse = () => {
+  const auth = useAuth()
+  const [emailRegister, setEmailRegister] = useState("");
+  const [passwordRegister, setPasswordRegister] = useState("");
+
+  const handleRegister = (e) => {
+    e.preventDefault();
+    auth.register(emailRegister, passwordRegister)
+  }
+
   return (
     <>
 
@@ -22,18 +32,16 @@ const Registrarse = () => {
                 </div>
                 <div className="mt-6 space-y-2">
                   <div>
-                  <label
-              htmlFor="FirstName"
-              className="block text-sm font-medium text-gray-700"
-            >
-              Nombre:
-            </label>
+                    <label htmlFor="email" className="sr-only">
+                      Correo electrónico
+                    </label>
                     <input
                       type="text"
-                      name="nombre"
-                      id="nombre"
+                      name="email"
+                      id="email"
                       className="block w-full px-5 py-3 text-base text-neutral-600 placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300"
-                      placeholder="Ingrese su nombre"
+                      placeholder="Correo electrónico"
+                      onChange={(e) => setEmailRegister(e.target.value)}
                     />
                   </div>
                   <div>
@@ -41,28 +49,23 @@ const Registrarse = () => {
                       Contraseña
                     </label>
                     <input
-                      type="password"
+                      type="text"
                       name="password"
                       id="password"
                       className="block w-full px-5 py-3 text-base text-neutral-600 placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300"
                       placeholder="Contraseña"
+                      onChange={(e) => setPasswordRegister(e.target.value)}
                     />
                   </div>
                   <div className="flex flex-col mt-4 lg:space-y-2">
                     <button
+                    onClick={(e) => handleRegister(e)}
                       type="button"
                       className="flex items-center justify-center w-full px-10 py-4 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     >
-                      Iniciar sesión
+                      Registrarse
                     </button>
-                    <a
-                      href="#"
-                      type="button"
-                      className="inline-flex justify-center py-4 text-base font-medium text-gray-500 focus:outline-none hover:text-neutral-600 focus:text-blue-600 sm:text-sm"
-                    >
-                      {" "}
-                      Olvidastes tu contraseña?{" "}
-                    </a>
+                   
                   </div>
                 </div>
               </div>
