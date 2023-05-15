@@ -6,16 +6,15 @@ import { useState, useEffect } from 'react';
 const Espirituals = () => {
   return (
     <div>
-      <section className="text-color-principal body-font ">
+      <section className="text-gray-600 body-font ">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="text-3xl font-black title-font mb-4 text-color-principal tracking-widest">
               EQUIPO ESPIRITUALES
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              havent heard of them.
+            "Explora tu camino espiritual y encuentra paz interior a través de nuestras sesiones virtuales con profesionales de la espiritualidad, listos para guiarte en tu viaje de autodescubrimiento y conexión espiritual."
+
             </p>
           </div>
           <div className="flex flex-wrap -m-4 ">

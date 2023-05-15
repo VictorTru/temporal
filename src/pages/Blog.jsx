@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
+    <div className="bg-white">
       <h2 className="text-3xl font-bold text-center py-12 text-black ">Blog</h2>
 
       {/* Container for demo purpose */}

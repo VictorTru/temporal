@@ -7,6 +7,8 @@ import carousel4 from '../images/carousel-4.png'
 import { Link } from "react-router-dom";
 import { Button } from "flowbite-react";
 import foto1 from '../images/frontend/foto1.jpg'
+import foto2 from '../images/frontend/foto2.jpg'
+import foto3 from '../images/frontend/foto3.jpg'
 
 
 
@@ -531,7 +533,7 @@ const Home = () => {
         <div className="flex justify-center">
           <div className="flex justify-center" style={{ marginTop: "-75px" }}>
             <img
-              src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+              src={foto3}
               className="rounded-full mx-auto shadow-lg"
               alt=""
               style={{ width: 150 }}
@@ -587,7 +589,7 @@ const Home = () => {
         <div className="flex justify-center">
           <div className="flex justify-center" style={{ marginTop: "-75px" }}>
             <img
-              src="https://mdbootstrap.com/img/new/avatars/15.jpg"
+              src={foto2}
               className="rounded-full mx-auto shadow-lg"
               alt=""
               style={{ width: 150 }}

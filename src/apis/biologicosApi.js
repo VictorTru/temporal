@@ -1,13 +1,13 @@
 export const biologicosApi = [
   {
-    dni: 23566789,
-    name: "Mariana Guzmán",
-    profesion: "Coach de vida",
-    description: "Ayudo a las personas a descubrir sus fortalezas y habilidades, a través de un proceso de reflexión y autoconocimiento. Trabajamos en conjunto para alcanzar objetivos y metas, y así lograr una vida más plena y satisfactoria.",
-    idiomas: "español, inglés",
-    nacionalidad: "México",
-    modelo_trabajo: "Personalizado",
-    image: "https://files.fm/thumb_show.php?i=ddehjxadu",
+    dni: 2345678901, 
+name: "María Fernández", 
+profesion: " Médico general", 
+description: " Brindo atención médica primaria y realiza diagnósticos y tratamientos para diversas condiciones de salud.", 
+idiomas: "español, inglés", 
+nacionalidad: "España", 
+modelo_trabajo: "Individualizado", 
+image: " https://images.pexels.com/photos/2115681/pexels-photo-2115681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: {
     rate: 4.9,
     comentarios: 25
@@ -15,14 +15,14 @@ export const biologicosApi = [
     },
     
     {
-    dni: 37455876,
-    name: "Elena Rodríguez",
-    profesion: "Coach financiero",
-    description: "Mi objetivo es ayudarte a tomar el control de tus finanzas personales. Te enseñaré a crear un presupuesto, a ahorrar, a invertir y a planificar para el futuro. Juntos encontraremos la mejor manera de manejar tu dinero y alcanzar la estabilidad financiera.",
-    idiomas: "español",
-    nacionalidad: "España",
-    modelo_trabajo: "Didáctico",
-    image: "https://files.fm/thumb_show.php?i=ush8cdwbg",
+      DNI: 3456789012, 
+      Name: "Carlos Morales", 
+      profesion: " Quiropráctico", 
+      description: " Se especializa en ajustes y manipulaciones de la columna vertebral y otras articulaciones para aliviar el dolor y mejorar la función del cuerpo.", 
+      idiomas: "español, inglés", 
+      nacionalidad: "México", 
+      modelo_trabajo: "Energizante", 
+      image: " https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: {
     rate: 4.7,
     comentarios: 10
@@ -30,14 +30,14 @@ export const biologicosApi = [
     },
     
     {
-    dni: 52984612,
-    name: "Ana González",
-    profesion: "Coach de bienestar",
-    description: "Me dedico a ayudar a las personas a alcanzar un estado de bienestar físico, emocional y mental. Te enseñaré técnicas de meditación, yoga y mindfulness para que aprendas a manejar el estrés y la ansiedad. Juntos trabajaremos para encontrar un equilibrio en tu vida.",
-    idiomas: "español, inglés",
-    nacionalidad: "Colombia",
-    modelo_trabajo: "Holístico",
-    image: "https://files.fm/thumb_show.php?i=mdrsttsr3",
+      dni: 4567890123, 
+      name: "Laura Gómez", 
+      profesion: " Nutricionista",
+      description: " Diseño planes de alimentación saludables y brindo asesoramiento nutricional para promover la salud y el bienestar del cuerpo.", 
+      idiomas: "español, francés", 
+      nacionalidad: "Colombia", 
+      modelo_trabajo: "Adaptativo", 
+      image: "https://images.pexels.com/photos/4173256/pexels-photo-4173256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: {
     rate: 4.6,
     comentarios: 8
@@ -52,7 +52,7 @@ export const biologicosApi = [
     idiomas: "español, inglés",
     nacionalidad: 'México',
     modelo_trabajo: 'PNL',
-    image: "https://files.fm/thumb_show.php?i=72vzu2xar",
+    image: "https://images.pexels.com/photos/8727571/pexels-photo-8727571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     rating: {
     rate: 4.9,
     comentarios: 30
@@ -60,15 +60,14 @@ export const biologicosApi = [
     },
     
     {
-    dni: 23456789,
-    name: 'John Smith',
-    profesion: 'Coach ejecutivo',
-    description:
-    'Soy un coach ejecutivo con amplia experiencia en ayudar a líderes y empresarios a desarrollar su liderazgo y habilidades gerenciales. Utilizo enfoques como el coaching ontológico, la teoría U y la inteligencia emocional para ayudar a mis clientes a alcanzar sus metas y liderar con éxito. Si necesitas un acompañamiento personalizado en tu carrera profesional, ¡contáctame!',
-    idiomas: "inglés",
-    nacionalidad: 'Estados Unidos',
-    modelo_trabajo: 'Coaching ontológico',
-    image: "https://files.fm/thumb_show.php?i=e2ubv4w45",
+      dni: 5678901234, 
+      name: "Gabriela Torres", 
+      profesion: "Nutricionista deportiva", 
+      description: "Ofrezco asesoramiento nutricional especializado para deportistas, ayudándoles a alcanzar su máximo rendimiento y mantener una dieta equilibrada.", 
+      idiomas: "español, inglés", 
+      nacionalidad: "Argentina", 
+      modelo_trabajo: "Optimizador",
+      image: " https://images.pexels.com/photos/1118689/pexels-photo-1118689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: {
     rate: 4.7,
     comentarios: 25
@@ -76,15 +75,14 @@ export const biologicosApi = [
     },
     
     {
-    dni: 34567890,
-    name: 'Isabel Rodríguez',
-    profesion: 'Coach nutricional',
-    description:
-    'Soy una coach nutricional apasionada por ayudar a las personas a mejorar su relación con la comida y llevar un estilo de vida saludable. Utilizo herramientas de coaching, psicología y nutrición para acompañar a mis clientes en su proceso de cambio. Si necesitas asesoramiento personalizado para mejorar tu alimentación y cuidar tu salud, ¡contáctame!',
-    idiomas: "español",
-    nacionalidad: 'España',
-    modelo_trabajo: 'Coaching nutricional',
-    image: "https://files.fm/thumb_show.php?i=999fgxwv9",
+      dni: 6789012345, 
+      name: "Juan Ramírez", 
+      profesión: "Fisioterapeuta", 
+      description: "Brindo terapia física para aliviar el dolor, mejorar la movilidad y promover la recuperación después de lesiones o cirugías.", 
+      idiomas: "español, italiano", 
+      nacionalidad: "Perú", 
+      modelo_trabajo: "Rehabilitador", 
+      image: " https://images.pexels.com/photos/1726710/pexels-photo-1726710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: {
     rate: 4.6,
     comentarios: 20
