@@ -97,7 +97,7 @@ const Header = () => {
       {user ? (
               // Si el usuario está logueado, mostrar un saludo y el botón de cerrar sesión
               <div className="flex items-center gap-4">
-                <p className="text-white">{displayName && <h5>Bienvenido : {displayName}</h5>}</p>
+                <p className="text-white">Bienvenido: {user.email}</p>
                 <button
                   className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
                   onClick={handleLogout}

@@ -5,7 +5,8 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/tw-elements/dist/js/**/*.js",
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
-    "./node_modules/tailwind-datepicker-react/dist/**/*.js"
+    "./node_modules/tailwind-datepicker-react/dist/**/*.js",
+    
   ],
 
   theme: {
